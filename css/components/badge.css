@@ -1,3 +1,12 @@
+@keyframes movenumber {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .badge {
   background-color: tomato;
   width: 30px;
@@ -8,4 +17,5 @@
   align-items: center;
   color: white;
   font-weight: 600;
+  animation: movenumber 1.5s ease-in-out infinite;
 }
